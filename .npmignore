@@ -1,0 +1,16 @@
+# compiled output
+/node_modules
+/build
+example/node_modules
+example/build
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# Tests
+packages/*/coverage
+packages/*/.nyc_output

@@ -1,0 +1,54 @@
+{
+    "name": "vue3-hooks-collection",
+    "version": "0.1.0",
+    "description": "vue3的hooks合集",
+    "private": false,
+    "type": "module",
+    "main": "build/index.cjs.js",
+    "module": "build/index.es.js",
+    "unpkg": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "dev": "rollup -c --watch",
+        "build": "cross-env NODE_ENV=production rollup -c"
+    },
+    "files": [
+        "build"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiq1997/vue3-hooks-Collection.git"
+    },
+    "keywords": [
+        "vue3",
+        "hook"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jiq1997/vue3-hooks-Collection/issues"
+    },
+    "homepage": "https://github.com/jiq1997/vue3-hooks-Collection#readme",
+    "dependencies": {
+        "@babel/core": "^7.23.2",
+        "@babel/plugin-transform-runtime": "^7.23.2",
+        "@babel/preset-env": "^7.23.2",
+        "@babel/runtime": "^7.23.2",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "cross-env": "^7.0.3",
+        "rollup": "^4.1.4",
+        "rollup-plugin-dts": "^6.1.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "rollup-plugin-vue": "^6.0.0",
+        "typescript": "^5.2.2",
+        "vue": "^3.3.7",
+        "vue-router": "^4.2.5"
+    },
+    "peerDependencies": {
+        "vue": "^3.3.7",
+        "vue-router": "^4.2.5"
+    }
+}

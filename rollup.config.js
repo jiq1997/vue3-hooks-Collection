@@ -72,7 +72,7 @@ const configs = [
       format: 'esm',
     },
     plugins: [dts()],
-    external: ['vue'],
+    external: ['vue', 'vue-router'],
   },
 ]
 

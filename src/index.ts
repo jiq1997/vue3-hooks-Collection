@@ -6,6 +6,10 @@ import useResetRef from './useResetRef/index'
 import useResetState from './useResetState/index'
 import useTimeOut from './useTimeOut/index'
 import useToggle from './useToggle/index'
+import useDebounce from './useDebounce/index'
+import useDebounceFn from './useDebounceFn/index'
+import useThrottle from './useThrottle/index'
+import useThrottleFn from './useThrottleFn/index'
 
 export {
   useBoolean,
@@ -16,4 +20,8 @@ export {
   useResetState,
   useTimeOut,
   useToggle,
+  useDebounce,
+  useDebounceFn,
+  useThrottle,
+  useThrottleFn,
 }

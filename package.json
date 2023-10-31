@@ -1,6 +1,6 @@
 {
     "name": "vue3-hooks-collection",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "vue3的hooks合集",
     "type": "module",
     "private": false,
@@ -10,7 +10,8 @@
     "types": "build/index.d.ts",
     "scripts": {
         "dev": "rollup -c --watch",
-        "build": "cross-env NODE_ENV=production rollup -c"
+        "build": "cross-env NODE_ENV=production rollup -c",
+        "publish": "npm publish"
     },
     "files": [
         "build"

@@ -1,10 +1,12 @@
 <template>
-  <h1>{{ obj.num }}</h1>
+  <h1>useResetState</h1>
+  <h2>{{ obj.num }}</h2>
   <button @click="change">修改</button>
   <button @click="reset">重置</button>
 </template>
 
 <script setup lang="ts">
+// @ts-ignore #
 import { useResetState } from '@hooks/index.es.js'
 
 let [obj, resetObj] = useResetState({

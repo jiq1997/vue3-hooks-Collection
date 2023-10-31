@@ -1,9 +1,9 @@
 import { computed, Ref, ComputedRef, unref } from 'vue'
 
-function useFormatResult<TData, FData>(
-  data: TData | Ref<TData>,
-  formatResultCallback: (data: TData) => FData
-): ComputedRef<FData> {
+function useFormatResult<T, F>(
+  data: T | Ref<T>,
+  formatResultCallback: (data: T) => F
+): ComputedRef<F> {
   const formatResultData = computed(() => formatResultCallback(unref(data)))
   return formatResultData
 }

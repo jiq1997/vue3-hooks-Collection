@@ -11,7 +11,7 @@ export interface UseBooleanActions {
 export type UseBooleanResult = [Readonly<Ref<boolean>>, UseBooleanActions]
 
 export default function useBoolean(defaultValue = false): UseBooleanResult {
-  const [state, { set, toggle }] = useToggle(defaultValue)
+  const [state, { set, toggle }] = useToggle(defaultValue, !defaultValue)
   const actions = {
     toggle,
     set: (v: boolean) => set(!!v),

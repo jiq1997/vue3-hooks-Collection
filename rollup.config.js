@@ -12,7 +12,7 @@ const outputDir = isProd ? 'build' : 'example/build'
 const basePlugins = [
   // 查找和打包node_modules中的第三方模块
   nodeResolve(),
-  // 将 CommonJS 转换成 ES2015
+  // 将 CommonJS 转换成 ES2016
   commonjs(),
   // 解析TypeScript
   typescript({

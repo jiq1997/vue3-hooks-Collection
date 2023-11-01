@@ -89,6 +89,12 @@ const routes: RouteRecordRaw[] = [
         // @ts-ignore #
         component: () => import('@/views/useThrottleFn.vue'),
       },
+      {
+        path: 'useLocalStorage',
+        name: 'useLocalStorage',
+        // @ts-ignore #
+        component: () => import('@/views/useLocalStorage.vue'),
+      },
     ],
   },
 ]

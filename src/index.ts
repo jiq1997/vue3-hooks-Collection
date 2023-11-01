@@ -13,6 +13,7 @@ import useThrottleFn from './useThrottleFn/index'
 import useBlank from './useBlank/index'
 import useState from './useState/index'
 import useAsyncState from './useAsyncState/index'
+import useLocalStorage from './useLocalStorage/index'
 
 export {
   useBoolean,
@@ -30,4 +31,5 @@ export {
   useBlank,
   useState,
   useAsyncState,
+  useLocalStorage,
 }

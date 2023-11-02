@@ -1,5 +1,5 @@
 <template>
-  <h1>useLocalStorage</h1>
+  <h1>useSessionStorage</h1>
   <h2>更新分数： {{ state }}</h2>
   <button
     @click="
@@ -32,7 +32,7 @@
 
 <script lang="ts" setup>
 // @ts-ignore #
-import { useLocalStorage } from '@hooks/index.es.js'
+import { useSessionStorage } from '@hooks/index.es.js'
 
-const [state, { set, del, clear }] = useLocalStorage<number>('num', 0)
+const [state, { set, del, clear }] = useSessionStorage<number>('num', 0)
 </script>

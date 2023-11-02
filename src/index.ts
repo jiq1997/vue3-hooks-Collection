@@ -14,6 +14,8 @@ import useBlank from './useBlank/index'
 import useState from './useState/index'
 import useAsyncState from './useAsyncState/index'
 import useLocalStorage from './useLocalStorage/index'
+import useSessionStorage from './useSessionStorage/index'
+import useOnceWatch from './useOnceWatch/index'
 
 export {
   useBoolean,
@@ -32,4 +34,6 @@ export {
   useState,
   useAsyncState,
   useLocalStorage,
+  useSessionStorage,
+  useOnceWatch,
 }

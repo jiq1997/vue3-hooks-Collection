@@ -95,6 +95,18 @@ const routes: RouteRecordRaw[] = [
         // @ts-ignore #
         component: () => import('@/views/useLocalStorage.vue'),
       },
+      {
+        path: 'useSessionStorage',
+        name: 'useSessionStorage',
+        // @ts-ignore #
+        component: () => import('@/views/useSessionStorage.vue'),
+      },
+      {
+        path: 'useOnceWatch',
+        name: 'useOnceWatch',
+        // @ts-ignore #
+        component: () => import('@/views/useOnceWatch.vue'),
+      },
     ],
   },
 ]

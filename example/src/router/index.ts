@@ -107,6 +107,18 @@ const routes: RouteRecordRaw[] = [
         // @ts-ignore #
         component: () => import('@/views/useOnceWatch.vue'),
       },
+      {
+        path: 'useVModel',
+        name: 'useVModel',
+        // @ts-ignore #
+        component: () => import('@/views/useVModelFather.vue'),
+      },
+      {
+        path: 'useVModels',
+        name: 'useVModels',
+        // @ts-ignore #
+        component: () => import('@/views/useVModelsFather.vue'),
+      },
     ],
   },
 ]

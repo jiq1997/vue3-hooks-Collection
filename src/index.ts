@@ -16,6 +16,8 @@ import useAsyncState from './useAsyncState/index'
 import useLocalStorage from './useLocalStorage/index'
 import useSessionStorage from './useSessionStorage/index'
 import useOnceWatch from './useOnceWatch/index'
+import useVModel from './useVModel/index'
+import useVModels from './useVModels/index'
 
 export {
   useBoolean,
@@ -36,4 +38,6 @@ export {
   useLocalStorage,
   useSessionStorage,
   useOnceWatch,
+  useVModel,
+  useVModels,
 }

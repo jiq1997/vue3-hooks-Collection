@@ -18,6 +18,7 @@ import useSessionStorage from './useSessionStorage/index'
 import useOnceWatch from './useOnceWatch/index'
 import useVModel from './useVModel/index'
 import useVModels from './useVModels/index'
+import computedAsync from './computedAsync/index'
 
 export {
   useBoolean,
@@ -40,4 +41,5 @@ export {
   useOnceWatch,
   useVModel,
   useVModels,
+  computedAsync,
 }

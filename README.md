@@ -1,11 +1,3 @@
-<!--
- * @Description:
- * @Author: 纪泉
- * @Date: 2023-11-02 13:34:07
- * @LastEditors: 纪泉
- * @LastEditTime: 2023-11-29 10:13:02
--->
-
 # vue3-hooks-Collection
 
 vue3 的 hooks 合集
@@ -52,3 +44,5 @@ vue3 的 hooks 合集
   - 监听 props 的某个值
 - **useVModels**
   - 监听 props
+- **computedAsync**
+  - 异步 computed

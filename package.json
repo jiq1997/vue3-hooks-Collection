@@ -1,6 +1,6 @@
 {
     "name": "vue3-hooks-collection",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "vue3的hooks合集",
     "type": "module",
     "private": false,
